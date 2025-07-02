@@ -3,23 +3,38 @@ import UserList from './components/UserList.vue'
 </script>
 
 <template>
-  <h1>Say hi to the Vendre Team👋🏻</h1>
+  <div class="greeting">
+    <h1>say hi to</h1>
+    <h2>The Vendre Team👋🏻</h2>
+  </div>
   <main class="container">
     <UserList />
   </main>
 </template>
 
-<style>
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2rem;
+<style scoped>
+.greeting {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0.5rem;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-weight: bold;
+  color: rgb(167, 93, 236);
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
 }
 </style>
