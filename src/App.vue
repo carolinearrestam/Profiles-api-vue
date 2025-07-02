@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #444;
 }
